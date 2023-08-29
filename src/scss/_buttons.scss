@@ -1,0 +1,22 @@
+
+.btn{
+    @include button();
+}
+
+@each $key, $val in $colors{
+    .btn-#{$key}{
+        @include button();
+        background-color: $val;
+        &:hover{
+            background-color: darken($val, 5);
+        }
+    }
+
+    .btn-outlined-#{$key}{
+        @include button();
+        border: $base-border-thickness solid $val;
+        &:hover{
+            background-color: $val;
+        }
+    }
+}

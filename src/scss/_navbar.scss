@@ -1,0 +1,24 @@
+.navbar{
+    @include glass-background();
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: $base-padding $base-padding;
+    align-items: center;
+    
+    .navbar_header{
+        font-size: $font-size-md;
+        cursor: pointer;
+    }
+    .navbar_content{
+        .navbar_content_item{
+            font-size: $base-font-size + 0.1;
+            margin: 0 $base-margin;
+            padding: $base-padding $base-padding;
+            border-radius: $base-border-radius;
+        }
+        .navbar_content_item:hover{
+            @include glass-background-hover();
+        }
+    }
+}

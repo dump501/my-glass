@@ -1,0 +1,13 @@
+.card{
+    @include card();
+    width: 100%;
+    
+    .card-header{
+        font-weight: bold;
+        margin-bottom: $base-margin;
+    }
+    .card-footer{
+        font-weight: bold;
+        margin-top: $base-margin;
+    }
+}

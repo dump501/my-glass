@@ -1,0 +1,5 @@
+@mixin card{
+    @include glass-background();
+    border-radius: $base-border-radius;
+    padding: $base-padding;
+}

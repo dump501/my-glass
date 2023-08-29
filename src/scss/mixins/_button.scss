@@ -1,0 +1,8 @@
+@mixin button{
+    @include glass-filter();
+    text-decoration: none;
+    padding: $base-padding $base-padding *2;
+    border-radius: $base-border-radius;
+    cursor: pointer;
+    border: 0;
+}

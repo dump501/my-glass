@@ -1,0 +1,23 @@
+{
+  "name": "my-glass",
+  "version": "1.0.0",
+  "description": "a glass components library",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "keywords": [
+    "glass",
+    "glass-ui",
+    "glass",
+    "components",
+    "ui"
+  ],
+  "author": "Tsafack Djiogo Fritz Albin <tsafack07albin@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.64.2"
+  }
+}
